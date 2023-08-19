@@ -1,0 +1,584 @@
+
+
+/*WEBSITE VER 3*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 14px;
+    background: #fff;
+    line-height: 1.5;
+    font-family: MarsCentra-Book, "思源黑体", "微软雅黑", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+
+}
+
+.boldest {
+    font-weight: 900;
+}
+
+.bolder {
+    font-weight: 800;
+}
+
+.boldy {
+    font-weight: 650;
+}
+
+.bigger {
+    font-size: 1.25em;
+}
+
+.centered {
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    background: #fff;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 600px;    
+}
+
+
+
+.headerModules {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 auto;
+    width: 1140px;
+    margin-left:-570px;
+    z-index: 2;
+}
+
+    .site-header {
+        padding: 20px 0px;
+        /*margin-bottom: 150px;*/
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+        .leftPart {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            .logo {
+                margin-right: 20px;
+                width: 55px;
+                height: 55px;
+                vertical-align: middle;
+            }
+
+            .logo img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .info {
+                border: 1px solid #fff;
+                border-radius: 10px;
+                padding: 0px 10px;
+                font-size: 18px;
+                color: #fff;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 53.4px;
+            }
+
+    .ver {
+        width: 400px;
+        height: 55px;
+        font-size: 14px;
+        color: #13227a;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-end;
+        /*margin-right: 20px;*/
+    }
+
+        .ver .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            background: url("../images/CnEn.png") no-repeat;
+            background-size: contain;
+        }
+
+            .verdiv {
+                display: contents;
+            }
+                .ver .bigger {
+                    font-size: 1.7em;
+                }
+
+                .ver a {
+                    line-height: 55px;
+                }
+
+                .ver a:link {
+                    color: #73b0fa;
+                }
+
+                .ver a:visited {
+                    color: #73b0fa;
+                }
+
+                .ver a:hover {
+                    color: blue;
+                    text-decoration: underline;
+                }
+
+            .verdiv:hover {
+                outline-color: blue;
+                outline-width: 4px;
+            }
+
+    .barcontainer {
+        width: 100%;
+        /*padding: 20px 0px;*/
+        display: flex;
+        height: 28px;
+        margin-bottom: 135px;
+        justify-content: flex-end;
+    }
+
+        .barcontainer .bigger {
+            font-size: 1.5em;
+        }
+
+        .lawinfo {
+            height: 100%;
+            line-height: 28px;
+            text-decoration: underline;
+            text-decoration-color: white;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 4px;
+        }
+
+            .lawinfo:hover {
+                border-radius: 4px;
+                background: white;
+                padding: 0px 5px;
+                text-decoration-color: blue;
+                text-underline-offset: 2px;
+            }
+
+            .lawinfo a:link {
+                color: #73b0fa;
+            }
+
+            .lawinfo a:visited {
+                color: #73b0fa;
+            }
+
+            .lawinfo a:hover {
+                color: blue;
+
+            }
+
+
+
+    .textInfo {
+        text-align: center;
+    }
+
+        .textInfo p {
+            font-size: 21px;
+            color: #fff;
+            line-height:1.5;
+            margin-bottom: 10px;
+        }
+
+        .textInfo h2 {
+            font-size: 60px;
+            font-weight: normal;
+            color: #fff;
+            margin-bottom: 20px;
+            font-family: "DM Sans", sans-serif;
+        }
+
+        .textButtonDiv {
+            margin-bottom: 22px;
+        }
+
+    .contactBtnContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+        .contactBtn {
+            /*margin: 0 auto;*/
+            border-radius: 6px;
+            width: 180px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 16px;
+            color: #222;
+            background-color: #FCFCFC;
+            text-align: center;
+            /*  display: block;*/
+            cursor: pointer;
+            font-weight: light;
+        }
+
+        .contactBtn:hover {
+            background-color: #2754df;
+            color: #fff;
+        }
+
+        .contactBtn2:hover {
+            background-color: #2754df;
+            color: #fff;
+        }
+
+    .banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: url('../images/banner1.jpg') no-repeat center top;
+        background-size: cover;
+        z-index: 1;
+    }
+
+
+.modules {
+    margin: 0 auto;
+    padding-top: 80px;
+    width: 1140px;
+}
+
+.modules p {
+    color: #7d8e70;
+}
+
+.modules h3 {
+    color: #536942;
+}
+
+.modules h2 {
+    color: #536942;
+}
+
+.theme {
+    position: relative;
+    font-size: 40px;
+    color: #7d8e70;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.theme::after {
+    position: absolute;
+    bottom: -30px;
+    left: 43%;
+    width: 150px;
+    height: 30px;
+    content: "";
+    background: url('../images/star.png') no-repeat;
+    background-size: cover;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.element .item {
+    width: 330px;
+}
+
+.element .item .photo {
+    width: 330px;
+    /* height: 230px; */
+    margin-bottom: 15px;
+}
+
+.element .item .photo img {
+    width: 100%;
+    /* width: 520px;
+    height: 230px; */
+    border-radius: 10px;
+    width: 330px;
+    height: 224.65px;
+}
+
+.element .item .explain {
+    padding: 0 10px;
+    color: #7d8e70;
+}
+
+
+.element .item .explain h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.element .item .explain .content p {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.element .item .explain .content p:last-child {
+    margin-bottom: 0;
+
+}
+.whyContent{
+text-align: center;
+color: #7d8e70;
+
+}
+/* .whyContent h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+} */
+.whyContent p span{
+    font-weight: bold;
+    
+}
+.whyContent p{
+margin-bottom: 20px;
+line-height: 1.5;
+}
+
+.module3 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.module3 h2, p {
+    color: white;
+}
+
+.content3 {
+    width: 100%;
+    padding: 100px 0;
+    background: url('../images/banner3.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.site-header2 {
+    padding: 20px;
+    margin-bottom: 37px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textInfo2 {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    /*line-height: 0.8;*/
+}
+
+.textInfo2 h2, p {
+    color: white;
+}
+
+.textInfo2 h2 {
+    font-size: 58px;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.textInfo2 p {
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.textInfo2 p {
+    width: 40%;
+}
+
+.textButtonDiv2 {
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactBtn2 {
+    margin: 0 auto;
+    border-radius: 6px;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 13px;
+    color: #536942;
+    background-color: #ffd936;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-weight: light;
+}
+
+.banner2 {
+    position: absolute;
+    top: 70;
+    left: 0;
+    width: 100%;
+    height: 530px;
+    background: url('../images/clear-blue-sky-landscape.jpg') no-repeat;
+    /*background-color: #f8ffd6;*/
+    background-size: cover;
+    z-index: 1;
+}
+
+.module4 p {
+    /*line-height: 30;*/
+}
+
+.element2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.element2 .getintouch {
+    text-align: center;
+}
+
+.element2 .getintouch .explain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 99px;*/
+}
+
+
+.explain2 h3 {
+    padding-top: 35px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.explain2 h2 {
+    font-size: 30px;
+    /*font-size: 1.875rem;*/
+    font-weight: 400;
+    font-family: 'DM Sans',sans-serif;
+
+}
+
+explain2 {
+    align-content: center;
+    vertical-align: middle;
+}
+
+.element2 .getintouch h2 {
+
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 110px;
+}
+
+.footerModules {
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo2 {
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.logo2 img {
+    width: 100%;
+}
+
+.copyright {
+    justify-self: center;
+}
+
+.copyright p {
+    font-size: 12px;
+    line-height: 55px;
+}
+
+
+
+
+/* TIPS SECTION */
+
+.infoContent {
+    /*text-align: center;*/
+    color: #7d8e70;
+    font-size: 1.4em;
+}
+
+.infoContent a:link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.infoContent dl dd {
+    margin-bottom: 60px;
+}
+
+.infoContent h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.infoContent p span{
+    font-weight: bold;
+
+}
+.infoContent p{
+margin-bottom: 20px;
+line-height: 1.5;
+}
+
+.infoContent img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
