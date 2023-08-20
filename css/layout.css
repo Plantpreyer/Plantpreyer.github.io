@@ -347,25 +347,33 @@ a {
 
 .element .item .explain .content p:last-child {
     margin-bottom: 0;
-
 }
+
 .whyContent{
 text-align: center;
 color: #7d8e70;
-
 }
+
 /* .whyContent h2{
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 10px;
 } */
+
 .whyContent p span{
     font-weight: bold;
     
 }
+
 .whyContent p{
 margin-bottom: 20px;
 line-height: 1.5;
+}
+
+.whyContent img {
+    height: 300px;
+    border: gray;
+    border-width: 10px;
 }
 
 .module3 {
