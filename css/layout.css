@@ -372,8 +372,9 @@ line-height: 1.5;
 
 .whyContent img {
     height: 300px;
-    border: gray;
+    border-color: #694B40;
     border-width: 10px;
+    border-style: solid;
 }
 
 .module3 {
