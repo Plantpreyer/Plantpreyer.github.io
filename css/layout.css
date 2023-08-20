@@ -370,12 +370,16 @@ margin-bottom: 20px;
 line-height: 1.5;
 }
 
-.whyContent img {
+.businesscard {
     height: 300px;
-    border-color: #694B40;
-    border-width: 10px;
-    border-style: solid;
 }
+
+    .businesscard img {
+        height: 100%;
+        border-color: #694B40;
+        border-width: 10px;
+        border-style: solid;
+    }
 
 .module3 {
     position: relative;
